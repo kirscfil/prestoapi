@@ -44,6 +44,7 @@ class PrestoScraper {
                 print("FAILED: date not extracted")
                 return nil
             }
+            /*
             // Save the date
             guard NSCalendar.current.isDate(date.addingTimeInterval(4 * 60 * 60), inSameDayAs: Date()) else {
                 // No today's menu yet
@@ -51,7 +52,7 @@ class PrestoScraper {
                 print("FAILED: date not current")
                 return nil
             }
-            
+            */
             mealsList.removeFirst()
             
             // Separate topics
